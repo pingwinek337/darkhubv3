@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "darkhud",
+	"version": "${version}",
+	"name": "DarkHUD",
+	"description": "Ciemny HUD (coords, nether, FPS, ping, CPS, kierunek, serwer, nick) z GUI ustawien. Dziala razem z Sodium.",
+	"authors": ["DarkHUD"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["pl.darkhud.DarkHudClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"sodium": "*"
+	}
+}
